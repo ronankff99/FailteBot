@@ -1,0 +1,21 @@
+LANGUAGE SELECT PROMPTS,
+utter_which_language_would, Which language would you like to use?
+utter_lets_use, Let's use English
+
+NAVIGATION PROMPTS
+utter_main_menu, Please select an option
+utter_where_to_get, Where to get help in Ireland
+
+DIALOGUE PROMPTS
+utter_hello, Hello!
+utter_affirm, Yes, please
+utter_deny, No, thanks
+utter_okay, Okay!
+
+CONVERSATION: WHERE TO GET HELP
+utter_your_local_citizens_1, Your local Citizens Information Centre can tell you about public services in Ireland and about residence rights\, employment rights\, health services\, housing\, social welfare entitilements, and general information about living in Ireland.
+utter_your_local_citizens_2, You can contact Citizens Information by phone at 0761 074000
+utter_your_local_citizens_3, Online at www.citizensinformation.ie
+utter_your_local_citizens_4, Or in person by calling to a Citizens Information Centre
+utter_your_local_citizens_5, Would you like to see your nearest centre?
+utter_show_local_centre, https://www.google.com/maps/search/citizens+information+centre+near+me

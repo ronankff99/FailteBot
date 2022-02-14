@@ -1,0 +1,19 @@
+LANGUAGE SELECT PROMPTS,
+utter_lets_use, Utilisons le français
+
+NAVIGATION PROMPTS
+utter_main_menu, Veuillez sélectionner une option
+utter_where_to_get, Où obtenir de l'aide en Irlande
+
+DIALOGUE PROMPTS
+utter_hello, Salut!
+utter_affirm, Oui s'il vous plaît
+utter_deny, Non merci
+utter_okay, D'accord!
+
+CONVERSATION: WHERE TO GET HELP
+utter_your_local_citizens_1, Votre Centre d’information des citoyens le plus proche vous renseignera à propos des services publics en Irlande\, des droits de résidence et de travail\, des services de santé\, du logement\, des prestations sociales et d’informations générales sur votre séjour en Irlande:
+utter_your_local_citizens_2, par téléphone -  0761 074000
+utter_your_local_citizens_3, en ligne sur www.citizensinformation.ie
+utter_your_local_citizens_4, ou en personne en appelant le Centre d’information des citoyens (CIC)
+utter_your_local_citizens_5, Souhaitez-vous voir votre centre le plus proche?

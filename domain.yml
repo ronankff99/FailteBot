@@ -1,0 +1,34 @@
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - lang_choice
+  - conversation_where_to_get
+
+entities:
+  - user_lang
+  
+responses:
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+actions:
+  - action_language_select
+  - action_utter_main_menu
+  - action_utter_your_local_citizens
+  - action_utter_okay
+  - action_utter_show_local_centre
+
+slots:
+  user_lang:
+    type: unfeaturized
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

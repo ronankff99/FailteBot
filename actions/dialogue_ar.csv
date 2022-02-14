@@ -1,0 +1,20 @@
+LANGUAGE SELECT PROMPTS,
+utter_lets_use, لنستخدم اللغة العربية
+
+NAVIGATION PROMPTS
+utter_main_menu, الرجاء تحديد خيار
+utter_where_to_get,أين تحصل على المساعدة في أيرلندا
+
+DIALOGUE PROMPTS
+utter_hello, مرحبا!
+utter_affirm, نعم من فضلك
+utter_deny, لا شكرا
+utter_okay, تمام!
+
+CONVERSATION: WHERE TO GET HELP
+utter_your_local_citizens_1, لمرالمحلي أن يطلعك على الخدمات العامة في إيرلندا و على حقوق الإقامة و حقوق
+العمل و الحقوق الصحية و السكن وامتيازاتالرعاية الاجتماعيةبالإضافة إلى معلومات أخرى حول الحياة في إيرلندا.
+utter_your_local_citizens_2, يمكنك الاتصال بخدمة معلومات المواطنين: عبر الهاتف–0761 074000
+utter_your_local_citizens_3, عبر الانترنيت من خلال الموقع الإلكتروني:citizensinformation.ie
+utter_your_local_citizens_4, بشكل شخصي من خلال الاتصال بمراكز معلومات المواطنين (CIC)
+utter_your_local_citizens_5, هل ترغب في رؤية أقرب مركز لك؟
