@@ -37,6 +37,16 @@ def getText(key, lang):
 
     return res
 
+# Actions for fallback option
+class ActionDefaultFallback(Action):
+    def name(self) -> Text:
+        return "action_default_fallback"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('default_fallback', user_lang))
+        return []
+
 # Actions for onboarding conversation
 class ActionLanguageSelect(Action):
     def name(self) -> Text:

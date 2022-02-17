@@ -12,6 +12,9 @@ utter_affirm, Yes, please
 utter_deny, No, thanks
 utter_okay, Okay!
 
+DEFAULT FALLBACK
+default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: LINK FOR ERROR REPORTING
+
 CONVERSATION: WHERE TO GET HELP
 utter_your_local_citizens_1, Your local Citizens Information Centre can tell you about public services in Ireland and about residence rights\, employment rights\, health services\, housing\, social welfare entitilements, and general information about living in Ireland.
 utter_your_local_citizens_2, You can contact Citizens Information by phone at 0761 074000

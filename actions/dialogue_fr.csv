@@ -11,6 +11,10 @@ utter_affirm, Oui s'il vous plaît
 utter_deny, Non merci
 utter_okay, D'accord!
 
+DEFAULT FALLBACK
+default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: LINK FOR ERROR REPORTING
+
+
 CONVERSATION: WHERE TO GET HELP
 utter_your_local_citizens_1, Votre Centre d’information des citoyens le plus proche vous renseignera à propos des services publics en Irlande\, des droits de résidence et de travail\, des services de santé\, du logement\, des prestations sociales et d’informations générales sur votre séjour en Irlande:
 utter_your_local_citizens_2, par téléphone -  0761 074000

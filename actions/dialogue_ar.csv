@@ -11,6 +11,10 @@ utter_affirm, نعم من فضلك
 utter_deny, لا شكرا
 utter_okay, تمام!
 
+DEFAULT FALLBACK
+default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: LINK FOR ERROR REPORTING
+
+
 CONVERSATION: WHERE TO GET HELP
 utter_your_local_citizens_1, لمرالمحلي أن يطلعك على الخدمات العامة في إيرلندا و على حقوق الإقامة و حقوق
 العمل و الحقوق الصحية و السكن وامتيازاتالرعاية الاجتماعيةبالإضافة إلى معلومات أخرى حول الحياة في إيرلندا.
