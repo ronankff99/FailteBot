@@ -11,7 +11,11 @@
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
 action_endpoint:
- url: "http://localhost:5055/webhook"
+  # Uncomment for running locally without Docker containers
+  # url: "http://localhost:5055/webhook"
+  # Uncomment for running locally with Docker containers
+  url: "http://action-server-test:5055/webhook"
+
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
