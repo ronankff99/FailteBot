@@ -3,17 +3,28 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - choose_lang
   - lang_choice
+  - main_menu
   - conversation_where_to_get
+  - conversation_accommodation
+  - social_housing
+  - do_i_have
+  - what_points_do
+  - private_housing
+  - how_much_will
+  - what_documents_might
+  - homelessness
+  - help_with_paying
+  - housing_assistance_payment
+  - rent_supplement
+  - housing_checklist
 
 entities:
   - user_lang
   
+# Require at least one response to correctly run, even if unused
 responses:
-
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
 
@@ -23,6 +34,18 @@ actions:
   - action_utter_your_local_citizens
   - action_utter_okay
   - action_utter_show_local_centre
+  - action_utter_the_first_challenge
+  - action_utter_in_ireland_city
+  - action_utter_not_everyone_has
+  - action_utter_general_points
+  - action_utter_if_you_do
+  - action_utter_the_cost_of
+  - action_utter_the_landlord_may
+  - action_utter_if_you_or
+  - action_utter_there_are_two
+  - action_utter_hap_is_a
+  - action_utter_if_you_live
+  - action_utter_housing_checklist
 
 slots:
   user_lang:

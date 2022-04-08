@@ -2,17 +2,17 @@ LANGUAGE SELECT PROMPTS,
 utter_which_language_would, Which language would you like to use?
 utter_lets_use, Let's use English
 
-NAVIGATION PROMPTS
+NAVIGATION PROMPTS,
 utter_main_menu, Please select an option
 utter_where_to_get, Where to get help in Ireland
 
-DIALOGUE PROMPTS
+DIALOGUE PROMPTS,
 utter_hello, Hello!
 utter_affirm, Yes, please
 utter_deny, No, thanks
 utter_okay, Okay!
 
-DEFAULT FALLBACK
+DEFAULT FALLBACK,
 default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: LINK FOR ERROR REPORTING
 
 CONVERSATION: WHERE TO GET HELP
@@ -22,3 +22,76 @@ utter_your_local_citizens_3, Online at www.citizensinformation.ie
 utter_your_local_citizens_4, Or in person by calling to a Citizens Information Centre
 utter_your_local_citizens_5, Would you like to see your nearest centre?
 utter_show_local_centre, https://www.google.com/maps/search/citizens+information+centre+near+me
+
+CONVERSATION: ACCOMMODATION,
+utter_the_first_challenge, The first challenge you will face is to find a new home. This may be in public (social) housing or in private\, rented housing
+
+social_housing, Tell me about social housing 
+private_housing, Tell me about private housing
+homelessness, What if I am homeless?
+housing_checklist, What do I need to do before I start renting?
+main_menu, Back to the main menu
+
+utter_in_ireland_city, In Ireland\, city and county councils (also known as local authorities) provide social housing for people who cannot afford housing from their own resources. You should call into your local authority office and ask their help and advice about finding somewhere to live.
+utter_housing_associations_and, Housing associations and housing co-operatives also provide social housing for people who cannot afford to buy their own homes or rent a home in the private sector. You can find a list of housing associations at www.citizensinformation.ie (click on ‘Housing’).
+utter_not_everyone_has, Not everyone has a right to local authority housing. It depends on your eligibility and needs, including household income limits. There is also a long waiting list. The rent is decided based on the income (after tax) of all people over 18 living in the home. You must fill out an application form for local authority housing. Your local authority or local Citizens Information Centre can help you with this.
+utter_housing_associations_and_2, Housing associations and housing co-operatives also have rules about who may be eligible for their housing. Again\, your local Citizens Information Centre can help with this.
+what_points_do, What points do I need to watch for when applying for social housing support?
+utter_general_points_1, You can only apply to one housing authority.
+utter_general_points_2, In general, you must already be living in the area covered by that housing authority or have a local connection with the area through previous residence\, current employment\, medical care\, education or relatives – though a housing authority may agree to waive (ignore) this requirement.
+utter_general_points_3, You must send a completed application form to the relevant local authority. You can get the forms from the authority
+utter_general_points_4, When completing the application form\, you can choose up to three areas (“Areas of Choice”) within the local authority area you want to live. However\, if applying to an authority in Dublin\, Cork or Galway\, you can choose three areas in that county\, one of which must be in the area of the authority you are applying to.
+utter_general_points_5, Your application will be assessed by the local authority based on eligibility criteria, including income\, right of residency and the availability of alternative accommodation.
+utter_general_points_6, Once you satisfy the eligibility criteria\, your housing need will be assessed. This assessment takes account of your current accommodation
+utter_general_points_7, If your local authority decides that you meet both the eligibility and need criteria you will be placed on a waiting list (now known as a ‘record of qualified households’). Each local authority decides on its own rules for deciding order of priority on the waiting list (an “Allocation Scheme”). You can get a copy of this scheme from your local authority.
+utter_general_points_8, While you have some choice in specifying the areas where you would like to live, you should remember that if you choose a popular area, you may wait longer for an offer of housing than if you choose a less popular area. The demand for social housing is high and you can expect to wait a number of years before a local authority can offer you a house (depending on your housing needs and availability of suitable accommodation)
+
+utter_if_you_do, If you do not qualify for social housing or will have to wait a long time for social housing\, you should look at renting in the private sector.
+utter_the_private_residential, The Private Residential Tenancies Board (PRTB) oversees the private rental sector in Ireland. Its website\, www.prtb.ie\, explains the rights and responsibilities of tenants (you) and landlords. The website also has a Good Tenant Guide which you can download. 
+utter_you_can_also, You can also get information and advice from Threshold\, the national housing charity. See www.threshold.ie
+utter_the_cost_of, The cost of renting varies greatly. Expect to pay a lot more if you choose to live in\, or near\, a city. You can find details of typical rents in different parts of Ireland on www.prtb.ie
+utter_you_will_usually, You will usually have to pay a deposit and the first month’s rent before you can move into rented housing.
+utter_both_threshold_and, Both Threshold and Focus Ireland\, charities that help people at risk of homelessness\, may be able to help you find housing that accepts the rent supplement payment or Housing Assistance Payment (HAP)
+what_documents_might, What documents might the landlord ask for?
+utter_the_landlord_may_1, 📄 The landlord may ask for copies of the following documents:
+utter_the_landlord_may_2, 💁 character references from people who know you well
+utter_the_landlord_may_3, 💼 professional references\, usually from your employer and
+utter_the_landlord_may_4, 🏦 bank statements to show your income
+
+utter_if_you_or_1, If you or someone you know is homeless or at risk of becoming homeless\, you can get information and advice from:
+utter_if_you_or_2, 🏠 the housing section of your local authority
+utter_if_you_or_3, ☎ the Dublin City Council 24-hour Homeless Helpline at 1800 707 707 or the Homeless Persons Unit at 1800 724 724 – if you live in Dublin
+utter_if_you_or_4, ☎ the Cork City Council’s Homeless Persons Unit at (021) 480 5495 – if you live in Cork;
+utter_if_you_or_5, 🏥 the Community Welfare Officer in your local health office
+utter_if_you_or_6, ℹ your local Citizens Information centre
+utter_if_you_or_7, ☎ the Private Residential Tenancies Board (PRTB) (phone: 0818 30 30 37) – if you are in private rented accommodation and need advice and information on your rights as a tenant; and
+utter_if_you_or_8, 💻 www.threshold.ie – will provide additional information on your rights as a tenant
+
+utter_there_are_two_1, There are two types of financial support with rent payments:
+utter_there_are_two_2, Housing Assistance Payments (HAP) provided by some – but not all – local authorities; and
+utter_there_are_two_3, Rent Supplement payments provided by the Department of Social Protection
+housing_assistance_payment, Housing Assistance Payment
+rent_supplement, Rent Supplement
+utter_hap_is_a, HAP is a new form of housing support provided by some local authorities where you find your own place to live. HAP is being introduced on a phased basis. Ask your Local Authority about HAP support in your area.
+utter_hap_will_mean, HAP will mean that some local authorities can now provide housing assistance for households who qualify for social housing support. Under HAP, local authorities will make the full rent payment – on behalf of the HAP recipient – directly to the landlord. The HAP recipient will then pay a rent contribution to the local authority. The rent contribution is based on income and the ability to pay.
+utter_under_hap_you, Under HAP\, you are allowed to take up full-time employment without losing your HAP payment. The tenancy agreement will be between you and your landlord. (The local authority is not your landlord.)
+utter_you_must_pay, You must pay the deposit yourself. In some cases you may be eligible for an ‘exceptional needs’ payment from the Department of Social Protection to help with paying the deposit
+utter_if_you_live, If you live in a county where HAP is not yet available\, you can apply to the Department of Social Protection for the Rent Supplement payment. This will pay some of the cost of the rent.
+utter_rent_supplement_is_1, 💶 Rent Supplement is paid to people living in private rented housing who cannot pay the full rent themselves. To qualify for the Rent Supplement payment:
+utter_rent_supplement_is_2, 📃 you must be on the social housing waiting list
+utter_rent_supplement_is_3, 🪙your income must be below a certain level (if your only income is a social welfare payment\, you will probably qualify); and
+utter_rent_supplement_is_4, ✔ you may have to meet other conditions.
+utter_you_can_find, You can find out more from your local Department of Social Protection office\, from www.welfare.ie or from your local Citizens Information Centre.
+
+utter_housing_checklist_1, Decide on the area you would like to live in and contact that local authority to get a housing application form ✅
+utter_housing_checklist_2, Complete and return the form to the housing section of the local authority. If you qualify for social housing\, you will be placed on the housing waiting list ✅
+utter_housing_checklist_3, Ask the local authority how long you may be waiting for a house ✅
+utter_housing_checklist_4, Start looking for private rented housing. Ask your local authority if the Housing Assistance Payment (HAP) is available in your area. (You will find more information on HAP in the section on Help with paying your rent.) ✅
+utter_housing_checklist_5, If HAP is not yet available in your area\, contact your local Department of Social Protection office and ask how to apply for the rent supplement payment. You will find a list of Department of Social Protection offices on www.welfare.ie ✅
+utter_housing_checklist_6, If you need help with paying the deposit and first month’s rent\, ask the Department of Social Protection if you can apply for an ‘exceptional needs payment’ to help with this cost. ✅
+utter_housing_checklist_7, When you find accommodation\, contact the Department of Social Protection to see if you qualify for the rent supplement payment. ✅
+utter_housing_checklist_8, Agree a rent amount with your landlord and find out what is included in the rent (for example\, gas\, electricity\, water, refuse collection\, management fees\, and so on) ✅
+utter_housing_checklist_9, Make sure you get a lease or tenancy agreement from your landlord. This is an important document. If you don’t understand it\, ask someone to help you (for example\, Threshold) ✅
+utter_housing_checklist_10, Check to see if the gas\, electricity\, water and other services will be put in your name and if you will have to pay these bills. Most likely this will be the case. If necessary\, pay a transfer or connection fee ✅
+utter_housing_checklist_11, Do not pay your deposit until you have looked at the property and are satisfied with it ✅
+utter_housing_checklist_12, Broaden your search to find accommodation at a price you can afford – if you need to ✅

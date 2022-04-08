@@ -21,3 +21,73 @@ utter_your_local_citizens_2, par téléphone -  0761 074000
 utter_your_local_citizens_3, en ligne sur www.citizensinformation.ie
 utter_your_local_citizens_4, ou en personne en appelant le Centre d’information des citoyens (CIC)
 utter_your_local_citizens_5, Souhaitez-vous voir votre centre le plus proche?
+
+CONVERSATION: ACCOMMODATION,
+utter_the_first_challenge, Votre premier défi est de trouver un nouvel hébergement. Cela peut être dans un logement public (social) ou dans un logement privé et loué.
+social_housing, Parlez-moi du logement public
+private_housing, Parlez-moi du logement privé
+homelessness, Et si je suis sans abri ?
+housing_checklist, Que dois-je faire avant de commencer à louer ?
+main_menu, Retour au menu principal
+
+utter_in_ireland_city, En Irlande\, les conseils municipaux et les conseils de comté (aussi connu sous le nom d'administrations locales) fournit des logements sociaux pour les personnes qui ne peuvent se loger par leurs propres moyens. Appelez votre Bureau d'administration locale et demandez-leur aide et conseils pour trouver un endroit où vivre. 
+utter_housing_associations_and, Les associations et coopératives d’hébergements fournissent également des logements sociaux aux personnes qui n’ont pas les moyens d’acheter leur propre logement ou d’en louer un dans le secteur privé. Vous trouverez une liste de bureaux du logement au www.citizensinformation.ie (cliquez sur « Housing »)
+utter_not_everyone_has, Tout le monde n’a pas droit au logement de l’administration locale. Cela dépend de votre éligibilité et de vos besoins\, comprenant le plafond des revenus des ménages. Il y a également une longue liste d’attente. Le montant du loyer est basé sur le revenu (net) de tous les membres du foyer de plus de 18 ans. Vous devez remplir un formulaire de candidature pour le logemente l’administration locale. Votre administration locale ou votre Bureau d’informations des citoyens peuvent vous aider à le faire.
+utter_housing_associations_and_2, Les associations et coopératives d’hébergements ont également des critères d’éligibilité pour leurs logements. Là encore\, votre Bureau d’informations des citoyens local peut vous aider sur ce point.
+what_points_do, À quels points dois-je faire particulièrement attention lorsque je postule pour l’aide au logement?
+utter_general_points_1, Vous ne pouvez postuler qu’auprès d’une administration de logement.
+utter_general_points_2, En général\, vous devez déjà vivre dans la zone couverte par cette administration locale ou avoir un lien avec cette zone grâce à une adresse antérieure\, un emploi\, des soins médicaux\, des études supérieures ou de la famille – bien qu’une administration locale puisse décider de ne pas tenir compte de cette exigence.
+utter_general_points_3, Vous devez envoyer un formulaire de candidature complet à l’administration locale concernée. Vous pouvez obtenir ces formulaires par celle-ci
+utter_general_points_4, Lorsque vous complétez le formulaire de candidature\, vous pouvez choisir jusqu’à trois zones (« Areas of Choice ») dans la zone de l’administration locale dans laquelle vous voulez vivre. Cependant\, si vous candidatez pour une administration à Dublin\, Cork ou Galway\, vous pouvez choisir trois zones dans le comté\, l’une d’entre elles doit être la zone de l’administration à laquelle vous candidatez.
+utter_general_points_5, Votre candidature sera évaluée par l’administration locale basée sur des critères d’éligibilité\, notamment le revenu\, le droit de résidence et la disponibilité d’un logement alternatif.
+utter_general_points_6, Une fois que vous avez satisfait aux critères d’éligibilité\, vos besoins de logement seront évalués. Cette évaluation prend en compte votre hébergement actuel.
+utter_general_points_7, Si votre administration locale décide que vous remplissez les critères d’éligibilité et de besoins\, vous serez placé sur une liste d’attente (maintenant connue sous le nom de « liste de ménages qualifiés »). Chaque administration locale décide selon ses propres règles un ordre de priorité sur la liste d’attente (un « Allocation Scheme »). Vous pouvez obtenir une copie de ce schéma de la part de votre administration locale.
+utter_general_points_8, Même si vous avez la possibilité de choisir les zones dans lesquelles vous voudriez vivre\, rappelez-vous que si vous choisissez une zonepopulaire\, vous pourriez attendre une offre de logement plus longtemps que si vous choisissez une zone moins populaire. La demande de logements sociaux est élevée, préparez-vous à attendre plusieurs années avant qu’une administration locale ne vous offre un hébergement (en fonction de vos besoins de logement et de la disponibilité d’un logement approprié).
+
+utter_if_you_do, Si vous ne remplissez pas les conditions nécessaires pour prétendre à un logement social ou devez attendre longtemps pour en obtenir un, portez votre attention sur la location dans le secteur privé.
+utter_the_private_residential, Le Private Residential Tenancies Board (ou PRTB) supervise le secteur de la location privée en Irlande. Leur site Internet\, www.prtb.ie\, explique les droits et responsabilités des locataires (vous) et des propriétaires. Le site internet possède un guide du bon locataire que vous pouvez télécharger. 
+utter_you_can_also, Vous pouvez aussi obtenir des renseignements et des conseils de la part de Threshold\, l’organisme de bienfaisance national qui loue des logements. Rendez-vous sur www.threshold.ie
+utter_the_cost_of, Les coûts de location varient beaucoup. Attendez-vous à payer beaucoup plus si vous choisissez de vivre dans une ville ou autour. Vous pouvez trouver des exemples de locations-types dans différentes parties de l’Irlande sur www.prtb.ie
+utter_you_will_usually, En général\, vous devrez payer une caution et le premier mois de loyer avant de pouvoir emménager dans le logement loué.
+utter_both_threshold_and, Threshold et Focus Ireland\, deux organismes de bienfaisance qui aident les personnes risquant de devenir sans-abris\, peuvent vous aider à trouver un logement qui accepte le supplément au loyer ou les aides au logement (Housing Assistance Payment). 
+what_documents_might, Quels documents le propriétaire pourrait-il demander ?
+utter_the_landlord_may_1, 📄 Le propriétaire peut demander des copies des documents suivants :
+utter_the_landlord_may_2, 💁 des recommandations de personnes qui vous connaissent bien
+utter_the_landlord_may_3, 💼 des recommandations professionnelles\, généralement de votre employeur ; et
+utter_the_landlord_may_4, 🏦 des relevés bancaires pour justifier de votre revenu.
+
+utter_if_you_or_1, Si vous ou quelqu’un de votre entourage est sans-abri ou risque de le devenir\, vous pouvez obtenir des informations et des conseils de la part :
+utter_if_you_or_2, 🏠 de la section logement de votre administration locale ;
+utter_if_you_or_3, ☎ de la ligne 24h/24 d’aide aux sans-abris de la mairie de Dublin au 1800 707 707 ou le Service des sans-abris au 18000 724 724 – si vous vivez à Dublin ;
+utter_if_you_or_4, ☎ du Service des sans-abris de la mairie de Cork au (021) 480 5495 – si vous vivez à Cork ;
+utter_if_you_or_5, 🏥 des services sociaux communautaires de votre bureau local de santé
+utter_if_you_or_6, ℹ de votre Bureau d’information des citoyens local.
+utter_if_you_or_7, ☎ du Private Residential Tenancies Board (PRTB) (téléphone : 0818 30 30 37) – si vous êtes dans une location privée louée et avez besoin de conseils et d’informations sur vos droits en tant que locataire ; et
+utter_if_you_or_8, 💻 de www.threshold.ie – il vous fournira des informations supplémentaires sur vos droits en tant que locataire.
+
+utter_there_are_two_1, Il existe deux types de soutien financier pour le paiement du loyer :
+utter_there_are_two_2, l’aide au logement (HAP ou Housing Assistance Payments) fournies par certaines administrations locales – mais pas toutes ; et
+utter_there_are_two_3, les suppléments au loyer fournis par le Département de la protection sociale. housing_assistance_payment\, L’aide au logement (HAP)
+rent_supplement, Supplément au loyer
+utter_hap_is_a, La HAP est une nouvelle forme d’assistance au logement fournie par certaines administrations locales lorsque vous trouvez votre lieu de vie. La HAP est introduite de façon graduelle. Contactez votre administration locale à propos de l’aide HAP dans votre zone.
+utter_hap_will_mean, Grâce à la HAP, certaines administrations locales peuvent maintenant fournir une aide au logement pour les ménages éligibles à l’aide au logement social. Sous la HAP, les administrations locales vont payer la totalité du loyer – au nom du destinataire de la HAP – directement au propriétaire. Le destinataire de la HAP payera ensuite une contribution à l’administration locale. Le montant de la contribution est basé sur le revenu et la solvabilité.
+utter_under_hap_you, Sous la HAP\, vous êtes autorisé à accepter des emplois à plein temps sans perdre votre versement HAP. Le contrat de location s’appliquera entre vous et votre propriétaire. (L’administration locale n’est pas votre propriétaire).
+utter_you_must_pay, Vous devez payer la caution vous-même. Dans certains cas\, vous pouvez être éligible à un versement pour « besoin exceptionnel » de la part du Service de protection sociale pour aider à payer la caution.
+utter_if_you_live, Si vous vivez dans un comté où la HAP n’est pas encore disponible\, vous pouvez candidater au Service de protection sociale pour le versement du supplément au loyer. Cela payera une partie du loyer.
+utter_rent_supplement_is_1, 💶 Le supplément au loyer est accordé aux personnes vivant dans des logements privés qui ne peuvent payer la totalité du loyer eux-mêmes. Pour répondre aux critères du versement du supplément au logement :
+utter_rent_supplement_is_2, 📃 vous devez être sur la liste d’attente des logements sociaux ;
+utter_rent_supplement_is_3, 🪙 votre revenu doit être en-dessous d’un certain seuil (si votre seule source de revenus est un versement de protection sociale\, vous répondrez probablement au critère) ; et
+utter_rent_supplement_is_4, ✔ vous devez remplir d’autres conditions.
+utter_you_can_find, Vous trouverez des informations supplémentaires auprès de votre bureau local du Service de protection sociale\, sur www.welfare.ie ou auprès du Bureau d’information des citoyens.
+
+utter_housing_checklist_1, Décidez de la zone ou vous voudriez vivre et contactez l’administration locale pour obtenir un formulaire de candidature de logement. ✅
+utter_housing_checklist_2, Complétez et retournez le formulaire à la section logement de l’administration locale. Si vous remplissez les critères pour un logement social\, vous serez placés sur la liste d’attente des logements ✅
+utter_housing_checklist_3, Demandez à l’administration locale combien de temps vous pouvez attendre pour un hébergement. ✅
+utter_housing_checklist_5, Commencez à chercher des logements privés à louer. Demandez à votre administration locale si une aide au logement (HAP) est disponible dans votre zone. (Vous trouverez plus d’informations sur la HAP dans la rubrique Aides pour payer votre loyer.) ✅
+utter_housing_checklist_6, Si la HAP n’est pas encore disponible dans votre zone\, contactez votre bureau local du Service de protection sociale et demandez comment candidater pour le versement du supplément au logement. Vous trouverez une liste de bureaux du Service de protection sociale sur www.welfare.ie ✅
+utter_housing_checklist_7, Si vous avez besoin d’aide pour payer la caution et le premier mois de loyer\, demandez au Service de protection sociale si vous pouvez postuler pour un versement « pour besoin exceptionnel » pour compenser cette dépense. ✅
+utter_housing_checklist_8, Convenez du montant du loyer avec votre propriétaire et prenez connaissance de ce qui est inclus dedans (par exemple le gaz\, l’électricité\, l’eau\, la collecte des ordures\, les frais d’entretien\, et autres). ✅
+utter_housing_checklist_9, Assurez-vous d’obtenir un bail ou un contrat de location de la part de votre propriétaire. Il s’agit d’un document important. Si vous ne le comprenez pas\, demandez à quelqu’un de vous aider (par exemple\, Threshold). ✅
+utter_housing_checklist_10, Vérifiez si le gaz\, l’électricité\, l’eau et les autres services seront mis à votre nom et si vous devez payer ces charges. Cela sera le cas la plupart du temps. Si nécessaire\, payez un transfert ou des frais de connexion. (Voir la section « Charges courantes » du chapitre sur les Informations générales.) ✅
+utter_housing_checklist_11, Ne payez pas la caution avant d’avoir visité la propriété et d’en avoir été satisfait.  ✅
+utter_housing_checklist_12, Élargissez vos recherches pour trouver un logement à un prix abordable pour vous – si vous en avez besoin. ✅
