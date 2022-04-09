@@ -1,7 +1,13 @@
 <!-- ONBOARDING STORIES -->
 ## Onboarding
-* greet
 * choose_lang
+  - action_language_select
+* lang_choice{"user_lang":"{user_lang}"}
+  - slot{"user_lang":"{user_lang}"}
+  - action_utter_main_menu
+<!-- Show main menu -->
+
+* greet
   - action_language_select
 * lang_choice{"user_lang":"{user_lang}"}
   - slot{"user_lang":"{user_lang}"}
@@ -28,7 +34,7 @@
 <!-- Show main menu -->
 
 <!-- ACCOMMODATION STORIES -->
-## Accommodation
+## Accommodation Menu
 * conversation_accommodation
   - action_utter_the_first_challenge
 > accommodation_choice_1
@@ -94,3 +100,54 @@
 * main_menu
   - action_utter_main_menu
 <!-- Show main menu -->
+
+<!-- EDUCATION STORIES -->
+## Education Menu
+* conversation_education
+  - action_utter_in_ireland_by
+> education_choice_1
+
+## Education: Early childhood Education
+> education_choice_1
+* early_childhood
+  - action_utter_early_childhood_education
+  - action_utter_in_ireland_by
+<!-- Show education menu -->
+
+## Education: Primary Education
+> education_choice_1
+* primary_education
+  - action_utter_children_attend_primary
+  - action_utter_in_ireland_by
+<!-- Show education menu -->
+
+## Education: Second-level Education
+> education_choice_1
+* second_level
+  - action_utter_children_begin_their
+* english_language
+  - action_utter_young_children_learn
+* special_educational
+  - action_utter_children_with_special_educational
+  - action_utter_in_ireland_by
+<!-- Show education menu -->
+
+## Education: Third-level Education
+> education_choice_1
+* third_level
+  - action_utter_third_level_education
+* financial_support
+  - action_utter_financial_help_for
+* help_for
+  - action_utter_yes_there_is
+* are_my
+  - action_utter_it_depends_quality
+  - action_utter_in_ireland_by
+<!-- Show education menu -->
+
+## Education: Further Education and Adult Education
+> education_choice_1
+* further_education
+  - action_utter_further_education_is
+  - action_utter_in_ireland_by
+<!-- Show education menu -->

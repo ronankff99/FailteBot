@@ -6,6 +6,7 @@
 
 import csv
 from typing import Any, Text, Dict, List
+from webbrowser import get
 
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
@@ -83,6 +84,12 @@ class ActionUtterMainMenu(Action):
             {
                 "title": getText('utter_where_to_get', user_lang),
                 "payload": '/conversation_where_to_get'            
+            },{
+                "title": getText('accommodation', user_lang),
+                "payload": '/conversation_accommodation'                
+            },{
+                "title": getText('education', user_lang),
+                "payload": '/conversation_education'                
             }])
         return []
 
@@ -299,5 +306,182 @@ class ActionUtterHousingChecklist(Action):
         return "action_utter_housing_checklist"
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(text=getText('', 'en'))
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_housing_checklist_1', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_2', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_3', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_4', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_5', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_6', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_7', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_8', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_9', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_10', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_11', user_lang))
+        dispatcher.utter_message(text=getText('utter_housing_checklist_12', user_lang))
+
+        return []
+
+# ACTIONS FOR EDUCATION STORIES
+## Menu for Education Stories
+class ActionUtterInIrelandBy(Action):
+    def name(self) -> Text:
+        return "action_utter_in_ireland_by"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_in_ireland_by', user_lang), buttons=[{
+            "title": getText('early_childhood', user_lang),
+            "payload": "/early_childhood"
+        },{
+            "title": getText('primary_education', user_lang),
+            "payload": "/primary_education"
+        },{
+            "title": getText('second_level', user_lang),
+            "payload": "/second_level"
+        },{
+            "title": getText('third_level', user_lang),
+            "payload": "/third_level"
+        },{
+            "title": getText('further_education', user_lang),
+            "payload": "/further_education"
+        },{
+            "title": getText('main_menu', user_lang),
+            "payload": "/main_menu"
+        }])
+        return []
+
+## Early Education
+class ActionUtterEarlyChildhoodEducation(Action):
+    def name(self) -> Text:
+        return "action_utter_early_childhood_education"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_early_childhood_education', user_lang))
+        dispatcher.utter_message(text=getText('utter_the_ecce_programme', user_lang))
+        return []
+
+## Primary Education
+class ActionUtterChildrenAttendPrimary(Action):
+    def name(self) -> Text:
+        return "action_utter_children_attend_primary"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_children_attend_primary', user_lang))
+        list_string =   getText('denominational_schools', user_lang) + '\n' + getText('multidenominational_schools', user_lang) + '\n' +\
+                        getText('nondeonminational_schools', user_lang) + '\n' + getText('irish_speaking_schools', user_lang) + '\n' +\
+                        getText('schools_for_children', user_lang) + '\n' + getText('private_primary_schools', user_lang)
+        dispatcher.utter_message(text=getText(list_string, user_lang))
+        dispatcher.utter_message(text=getText('utter_education_in_state', user_lang))
+        dispatcher.utter_message(text=getText('utter_primary_schools_are', user_lang))
+        dispatcher.utter_message(text=getText('utter_education_in_state', user_lang))
+        dispatcher.utter_message(text=getText('utter_primary_schools', user_lang))
+        return []  
+
+## Secondary Education
+class ActionUtterChildrenBeginTheir(Action):
+    def name(self) -> Text:
+        return "action_utter_children_begin_their"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_children_begin_their', user_lang))
+        dispatcher.utter_message(text=getText('utter_the_second_level', user_lang))
+        dispatcher.utter_message(text=getText('utter_the_earliest_a', user_lang), buttons=[{
+            "title": getText('is_there_english', user_lang),
+            "payload": "/english_language"
+        }])
+        return []
+
+class ActionUtterYoungChildrenLearn(Action):
+    def name(self) -> Text:
+        return "action_utter_young_children_learn"
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_young_children_learn', user_lang), buttons=[{
+            "title": getText('are_there_special', user_lang),
+            "payload": "/special_educational"
+        }])
+        return []  
+
+class ActionUtterYoungChildrenLearn(Action):
+    def name(self) -> Text:
+        return "action_utter_children_with_special"
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_children_with_special', user_lang))
+        return []  
+
+## Third Level
+class ActionUtterThirdLevelEducation(Action):
+    def name(self) -> Text:
+        return "action_utter_third_level_education"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_third_level_education', user_lang))
+        dispatcher.utter_message(text=getText('utter_access_to_higher', user_lang))
+        dispatcher.utter_message(text=getText('utter_the_central_applications', user_lang), buttons=[{
+            "title": getText('is_there_financial', user_lang),
+            "payload": "/financial_support"
+        }])
+
+class ActionUtterFinancialHelpFor(Action):
+    def name(self) -> Text:
+        return "action_utter_financial_help_for"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_financial_help_for', user_lang))
+        dispatcher.utter_message(text=getText('utter_some_students_may', user_lang))
+        dispatcher.utter_message(text=getText('utter_this_help_is', user_lang), buttons=[{
+            "title": getText('is_there_any', user_lang),
+            "payload": "/help_for"
+        }])
+
+class ActionUtterYesThereIs(Action):
+    def name(self) -> Text:
+        return "action_utter_yes_there_is"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_yes_there_is_1', user_lang))
+        dispatcher.utter_message(text=getText('utter_yes_there_is_2', user_lang))
+        dispatcher.utter_message(text=getText('utter_yes_there_is_3', user_lang))
+        dispatcher.utter_message(text=getText('utter_yes_there_is_4', user_lang))
+        dispatcher.utter_message(text=getText('utter_yes_there_is_5', user_lang))
+        dispatcher.utter_message(text=getText('utter_yes_there_is_6', user_lang))
+        dispatcher.utter_message(text=getText('utter_yes_there_is_7', user_lang), buttons=[{
+            "title": getText('are_my_education', user_lang),
+            "payload": "/are_my"
+        }])
+        return []  
+
+class ActionUtterItDependsQuality(Action):
+    def name(self) -> Text:
+        return "action_utter_it_depends_quality"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_it_depends_quality', user_lang))
+        return []
+
+## Further and Adult Education
+class ActionUtterFurtherEducationIs(Action):
+    def name(self) -> Text:
+        return "action_utter_further_education_is"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_further_education_is_1', user_lang))
+        dispatcher.utter_message(text=getText('utter_further_education_is_2', user_lang))
+        dispatcher.utter_message(text=getText('utter_further_education_is_3', user_lang))
+        dispatcher.utter_message(text=getText('utter_further_education_is_4', user_lang))
+        dispatcher.utter_message(text=getText('utter_further_education_is_5', user_lang))
+        dispatcher.utter_message(text=getText('utter_further_education_is_6', user_lang))
+        dispatcher.utter_message(text=getText('utter_you_can_get', user_lang))
+        dispatcher.utter_message(text=getText('utter_further_information_about', user_lang))
+
         return []

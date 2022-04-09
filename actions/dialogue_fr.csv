@@ -26,6 +26,7 @@ CONVERSATION: ACCOMMODATION,
 utter_the_first_challenge, Votre premier défi est de trouver un nouvel hébergement. Cela peut être dans un logement public (social) ou dans un logement privé et loué.
 social_housing, Parlez-moi du logement public
 private_housing, Parlez-moi du logement privé
+help_with_paying, Can I get financial assistance for rent?
 homelessness, Et si je suis sans abri ?
 housing_checklist, Que dois-je faire avant de commencer à louer ?
 main_menu, Retour au menu principal
@@ -91,3 +92,63 @@ utter_housing_checklist_9, Assurez-vous d’obtenir un bail ou un contrat de loc
 utter_housing_checklist_10, Vérifiez si le gaz\, l’électricité\, l’eau et les autres services seront mis à votre nom et si vous devez payer ces charges. Cela sera le cas la plupart du temps. Si nécessaire\, payez un transfert ou des frais de connexion. (Voir la section « Charges courantes » du chapitre sur les Informations générales.) ✅
 utter_housing_checklist_11, Ne payez pas la caution avant d’avoir visité la propriété et d’en avoir été satisfait.  ✅
 utter_housing_checklist_12, Élargissez vos recherches pour trouver un logement à un prix abordable pour vous – si vous en avez besoin. ✅
+
+CONVERSATION: EDUCATION,
+education, Education
+utter_in_ireland_by, En Irlande, selon la loi\, la scolarisation des enfants est obligatoire entre 6 et 16 ans (ou jusqu’à ce qu’ils terminent trois ans d’enseignement secondaire). Les enfants qui arrivent en Irlande\, qu’ils soient demandeurs d’asile\, réfugiés ou fils ou filles de travailleurs migrants\, disposent des mêmes droits à l’éducation que n’importe quel autre enfant en Irlande. Le système scolaire irlandais se compose de la primaire\, du secondaire\, de l’enseignement supérieur et de la formation continue.
+early_childhood, Tell me about early childhood education
+primary_education, Tell me about primary education
+second_level, Tell me about second-level education
+third_level, Tell me about third-level education
+further_education, Tell me about further education
+
+utter_early_childhood_education, L’éducation préscolaire ne fait pas partie du système éducatif formel irlandais. Elle est gérée par un vaste ensemble de groupes privés\, de communautés et de bénévoles. Elle comprend les crèches\, les garderies\, les maternelles et les maternelles d’apprentissage de l’irlandais.
+utter_the_ecce_programme, Le programme ECCE (Année d’éducation préscolaire gratuite pour la garde et l’éducation dans la petite enfance) est conçu pour donner aux enfants (généralement de moins de 4 ans) accès à une année d’éducation préscolaire gratuite constituée d’activités appropriées et respectueuses du programme durant l’année précédant leur entrée en primaire. Plus d’informations sur www.dcya.gov.ie.
+utter_children_attend_primary, Les enfants vont à l’école primaire de 4 à 12 ans. Les écoles primaires sont également connues sous le nom de « National Schools ». Il en existe plusieurs types :
+denominational_schools, les écoles confessionnelles (religieuses);
+multidenominational_schools, les écoles multiconfessionnelles ;
+nondeonminational_schools, es écoles laïques ;
+irish_speaking_schools, les écoles gaélophones (appelées Gaelscoileanna);
+schools_for_children, les écoles pour enfants aux besoins éducatifs particuliers résultant d’un handicap ;
+private_primary_schools, les écoles primaires privées
+utter_education_in_state, L’éducation est gratuite dans les écoles primaires publiques. Cependant\, vous devrez payer si vous souhaitez que votre enfant reçoive une éducation dans une école primaire privée. L’année scolaire s’étend de septembre à juin
+utter_primary_schools_are, Les écoles primaires sont supervisées par des comités de direction.
+
+utter_children_begin_their, Les enfants entrent dans le secondaire vers 12 ans et le quittent vers 17 ou 18 ans.
+utter_the_second_level, Le cycle d’enseignement secondaire dure cinq ans ponctués de deux examens nationaux\, le Junior Certificate au bout de trois ans et le Leaving Certificate après cinq ans. Certaines écoles proposent également une « année de transition » après le Junior Certificate\, portant la durée totale de l’enseignement secondaire à six ans.
+utter_the_earliest_a, Un enfant ne peut pas quitter l’école avant ses 16 ans (ou avant d’avoir terminé trois ans d’études secondaires, ce qui revient à la quitter plus tard).
+
+is_there_english, Is there English language support for students?
+utter_young_children_learn, Les jeunes enfants apprennent l’anglais très rapidement. Même si votre enfant ne parle que très peu anglais\, il sera normalement placé dans une classe composée d’enfants de son âge. En primaire\, de même qu’au secondaire\, un soutien supplémentaire est disponible pour les enfants qui n’ont pas l’anglais comme langue maternelle.
+
+are_there_special, Is there special needs support for students?
+utter_children_with_special, Les enfants aux besoins éducatifs particuliers résultant d’un handicap disposent de davantage de soutien soit au sein de leur établissement\, soit dans des écoles spécialisées. Plus d’informations sur www.ncse.ie
+
+utter_third_level_education, Les études supérieures comprennent des cursus gérés par des universités\, des instituts de technologie\, des instituts de formation\, et des établissements d’enseignement supérieur privés
+utter_access_to_higher, Pour les étudiants poursuivant leurs études après le secondaire\, l’accès aux études supérieures dépend du Leaving Certificate\, qui constitue l’examen national à la fin de l’enseignement secondaire.
+utter_the_central_applications, Le Central Applications Office (CAO) gère les candidatures aux établissements de l’enseignement supérieur. Vous pouvez candidater pour une place en envoyant un dossier de candidature complet au CAO. Plus d’informations sur www.cao.ie
+
+is_there_financial, Existe-t-il une aide financière pour faire des études supérieures ?
+utter_financial_help_for, L’aide financière pour les étudiants est soumise à des conditions de ressources ; elle est basée sur les revenus de la famille. Des bourses sont disponibles pour aider les étudiants à couvrir les dépenses courantes\, les frais de transports et/ou les frais de scolarité. Les bourses sont gérées par le Student Universal Support Ireland (SUSI). Pour plus d’informations\, rendez-vous sur leur site www.susi.ie
+utter_some_students_may, Certains étudiants peuvent recevoir une aide supplémentaire. Il s’agit des étudiants handicapés suivant à temps plein un cursus d’enseignement supérieur ou un cursus post-Leaving Certificate (dit PLC) et des étudiants risquant de ne pas être en mesure de poursuivre leurs études supérieurs pour des raisons financières.
+utter_this_help_is, Cette aide est fournie par le National Access Office of the Higher Education Authority (HEA). Rendez-vous sur www.hea.ie pour plus d’informations à ce sujet. Les étudiants peuvent également demander plus d’informations à leur établissement ou université.
+is_there_any, Existe-t-il une aide financière pour les réfugiés ou les demandeurs d’asile ?
+utter_yes_there_is_1, Oui, tout à fait. Depuis le 28 août 2015, un nouveau dispositif (à l’essai) a été mis en place pour les étudiants sortant de l’enseignement secondaire. Ce nouveau dispositif est à destination des étudiants qui font partie du programme de protection (et qui ne sont pas en voie d’expulsion)\, et donne accès\, à titre d’essai\, à une aide pour étudiants en accord avec l’actuel Dispositif de bourse pour étudiants. Les étudiants doivent remplir les conditions suivantes :
+utter_yes_there_is_2, ✅ Répondre à la définition d’un demandeur de protection ou d’une personne disposant d’un titre de séjour (et qui n’est pas en voie d’expulsion) ;
+utter_yes_there_is_3, ✅ Avoir réussi leur Leaving Certificate 
+utter_yes_there_is_4, ✅ Avoir été accepté dans un cursus post-Leaving Certificate ou un cursus de licence approuvé 
+utter_yes_there_is_5, ✅ Avoir étudié au moins durant cinq années académiques au sein du système scolaire irlandais, au 31 août 2015 
+utter_yes_there_is_6, ✅ Avoir demandé une protection ou avoir disposé d’un titre de séjour (sans être en voie d’expulsion) pour une période cumulée d’au moins 5 ans au 31 août 2015
+utter_yes_there_is_7, Vous pouvez trouver davantage d’informations sur ce dispositif sur www.education.ie
+
+are_my_education, Mes diplômes seront-il reconnus en Irlande ?
+utter_it_depends_quality, Cela dépend. La Quality and Qualifications Ireland (QQI) est l’agence nationale chargée de conseiller sur la reconnaissance de diplômes étrangers en Irlande et sur la reconnaissance de diplômes irlandais à l’étranger. Plus d’informations sur leur site www.qqi.ie
+
+utter_further_education_is_1, La formation continue est l’enseignement ou la formation se déroulant après les études secondaires mais qui ne font pas partie des études supérieures. Elle comprend des programmes tels que :
+utter_further_education_is_2, les cursus post-Leaving Certificate (PLC)
+utter_further_education_is_3, le Dispositif d’opportunités de formation professionnelle (appelé Vocational Training Opportunities Scheme ou VTOS) – il s’agit d’éducation de la seconde chance pour les chômeurs
+utter_further_education_is_4, les programmes Youthreach pour ceux qui ont quitté l’école prématurément
+utter_further_education_is_5, les programmes d’alphabétisation et d’éducation
+utter_further_education_is_6, les cours du soir pour adultes au sein d’établissements du secondaire
+utter_you_can_get, Vous pouvez obtenir plus d’informations sur www.education.ie (cliquez sur « Further Education and Training ») ou en consultant votre Comité d’éducation et de formation local. 
+utter_further_information_about, Rendez-vous sur le site du Ministère de l’Éducation et des compétences\, www.education.ie\, pour plus d’informations sur le système scolaire irlandais\, ainsi que sur les aides disponibles.
