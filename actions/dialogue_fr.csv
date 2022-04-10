@@ -152,3 +152,50 @@ utter_further_education_is_5, les programmes d’alphabétisation et d’éducat
 utter_further_education_is_6, les cours du soir pour adultes au sein d’établissements du secondaire
 utter_you_can_get, Vous pouvez obtenir plus d’informations sur www.education.ie (cliquez sur « Further Education and Training ») ou en consultant votre Comité d’éducation et de formation local. 
 utter_further_information_about, Rendez-vous sur le site du Ministère de l’Éducation et des compétences\, www.education.ie\, pour plus d’informations sur le système scolaire irlandais\, ainsi que sur les aides disponibles.
+
+CONVERSATION: HEALTHCARE,
+healthcare, Services de santé
+utter_in_ireland_the, En Irlande\, les soins médicaux sont gérés par le service de santé publique\, ou Health Service Executive (HSE). Le HSE supervise les hôpitaux publics. Il gère également un réseau de bureaux locaux de santé et de centres de soins qui proposent un ensemble de services de santé et de prestations sociales.
+
+hse_local, Bureaux locaux de santé du HSE
+register_gp,
+public_health,
+medical_emergency,
+other_services,
+
+utter_your_local_health, Votre bureau local de santé est votre point de départ dans la santé communautaire et pour les prestations sociales personnelles. Les bureaux locaux de santé et les centres de soins proposent un ensemble de services tels que :
+gp_services, 👨‍⚕️ les services de médecins généralistes
+public_health_nursing, 👨‍⚕️ les infirmières de santé publique
+child_health, 🧒 les services de santé infantile
+community_welfare, 👪 les services sociaux des collectivités
+chiropody, 🦶 la podologie (soin des pieds)
+ophthalmic, 👁 l'ophtalmologie (soin des yeux)
+speech_therapy, 🗣 l’orthophonie
+social_work, 👪 le travail social
+addiction_counselling, 💊 le soutien et traitement de la toxicomanie
+physiotherapy, 🏋 la kinésithérapie
+occupational_therapy, ♿ l’ergothérapie
+psychiatric_services, 🧠 les services psychiatriques
+
+utter_to_access_health, Pour avoir accès aux services de santé\, vous devez vous enregistrer auprès d’un médecin généraliste (médecin de famille) situé près de chez vous. Vous devez donner au médecin votre nom\, adresse\, numéro de téléphone et date de naissance. Vous trouverez une liste de médecins généralistes sur www.icgp.ie
+utter_if_you_change, Si vous changez de médecin et que vous possédez déjà une Medical Card (carte médicale) ou une GP visit card (carte de consultation du médecin généraliste)\, vous devez demander à votre bureau local de santé une nouvelle Medical Card ou une nouvelle GP visit card.
+utter_some_gps_only, Certains médecins proposent uniquement des prestations à des patients privés\, tandis que d’autres peuvent s’occuper également de patients détenteurs de Medical Card / GP visit card. Votre bureau local de santé peut vous fournir les coordonnées d’un médecin généraliste près de chez vous qui accepte les patients dotés d’une Medical Card ou d’une GP visit card.
+
+utter_in_ireland_if, En Irlande\, si les revenus de votre famille sont en- dessous d’un certain seuil\, vous pouvez obtenir une Medical Card (carte médicale). Cette carte vous donne droit\, à vous et votre famille à des soins gratuits par un médecin généraliste\, à des médicaments gratuits\, à une prise en charge gratuite dans les services d’urgences des hôpitaux publics\, et à un ensemble d’autres services de soins gratuits
+utter_if_your_family, Si les revenus de votre famille dépassent ce seuil\, vous pouvez obtenir une carte de consultation du médecin généraliste\, ou GP Visit Card. Cette carte vous donne droit à des consultations gratuites chez votre médecin de famille mais vous devrez payer pour les médicaments et les autres services de soins.
+utter_children_under_the, Les enfants de moins de 6 ans et les personnes âgées de plus de 70 ans ont automatiquement droit à une GP Visit Card.
+utter_if_you_do, Si vous ne remplissez les conditions nécessaires pour aucune de ces cartes\, vous devrez payer pour les consultations chez le médecin\, les médicaments et autres services de soins primaires.
+utter_if_you_are, Si vous changez de médecin\, vous devez en informer votre médecin actuel et lui demander d’envoyer votre dossier médical à votre nouveau médecin. Si vous remplissez les conditions nécessaires pour bénéficier d’une Medical Card\, vous devriez vérifier que le nouveau médecin accepte de nouveaux patients.
+
+do_i_have, Dois-je payer pour aller à l’hôpital ?
+utter_for_acute_public, Vous n’avez pas à payer pour les services hospitaliers de soins aigus\, y compris le service des urgences\, mais il vous faudra normalement une lettre de votre médecin généraliste (une ordonnance) pour pouvoir accéder aux services d’un hôpital public.
+utter_if_you_do, Si vous n’avez pas d’ordonnance de votre médecin\, ni de Medical Card\, vous devrez vous acquitter de 100€ pour des services d’urgence ou d’accident.
+utter_hospital_services_are, Des services hospitaliers sont également disponibles dans un certain nombre d’hôpitaux privés. Vous devrez payer l’ensemble des frais pour des services en hôpital privé à moins que vous n’ayez une assurance maladie privée qui couvre ces frais.
+utter_you_can_get, Votre bureau local de santé peut vous apporter plus d’informations sur les services de soins et sur la façon d’obtenir une Medical Card ou une GP visit card. 
+
+utter_public_health_nurses, Les infirmières de santé publique proposent un ensemble de services gratuits au sein de votre communauté.
+utter_if_you_have, Si vous vous êtes enregistré auprès d’une infirmière de santé publique durant votre séjour dans un centre d’hébergement public\, il est important de communiquer votre nouvelle adresse à l’infirmière de santé publique lorsque vous déménagez. Cela permet à l’infirmière de suivre votre dossier\, ou de vous adresser à une infirmière de santé publique près de votre nouveau lieu de résidence.
+utter_for_more_information, Veuillez consulter le site www.hse.ie pour plus d’informations sur les infirmières de santé publique.
+
+utter_in_a_medical, En cas d’urgence médicale\, composez le 112 ou le 999 et décrivez l’urgence à l’opérateur.
+utter_additional_information_on, Vous pouvez obtenir des informations supplémentaires sur les autres services de santé et prestataires de services sur www.hse.ie\, ou en contactant votre bureau local de santé

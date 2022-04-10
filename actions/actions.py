@@ -483,5 +483,131 @@ class ActionUtterFurtherEducationIs(Action):
         dispatcher.utter_message(text=getText('utter_further_education_is_6', user_lang))
         dispatcher.utter_message(text=getText('utter_you_can_get', user_lang))
         dispatcher.utter_message(text=getText('utter_further_information_about', user_lang))
+        return []
 
+# ACTIONS FOR EDUCATION STORIES
+## Menu for Education Stories
+class ActionUtterInIrelandThe(Action):
+    def name(self) -> Text:
+        return "action_utter_in_ireland_the"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_in_ireland_by', user_lang), buttons=[{
+            "title": getText('hse_local', user_lang),
+            "payload": "/hse_local"
+        },{
+            "title": getText('register_gp', user_lang),
+            "payload": "/register_gp"
+        },{
+            "title": getText('public_health', user_lang),
+            "payload": "/public_health"
+        },{
+            "title": getText('medical_emergency', user_lang),
+            "payload": "/medical_emergency"
+        },{
+            "title": getText('other_services', user_lang),
+            "payload": "/other_services"
+        },{
+            "title": getText('main_menu', user_lang),
+            "payload": "/main_menu"
+        }])
+        return []
+
+## HSE Local Health Office
+class ActionUtterYourLocalHealth(Action):
+    def name(self) -> Text:
+        return "action_utter_your_local_health"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('action_utter_your_local_health', user_lang))
+        list_string =   getText('gp_services', user_lang) + '\n' + \
+                        getText('public_health_nursing', user_lang) + '\n' + \
+                        getText('child_health', user_lang) + '\n' + \
+                        getText('community_welfare', user_lang) + '\n' + \
+                        getText('chiropody', user_lang) + '\n' + \
+                        getText('ophthalmic', user_lang) + '\n' + \
+                        getText('speech_therapy', user_lang) + '\n' + \
+                        getText('social_work', user_lang) + '\n' + \
+                        getText('addiction_counselling', user_lang) + '\n' + \
+                        getText('physiotherapy', user_lang) + '\n' + \
+                        getText('occupational_therapy', user_lang) + '\n' + \
+                        getText('psychiatric_services', user_lang)
+        dispatcher.utter_message(text=list_string)
+        return []
+
+## Register with a GP
+class ActionUtterToAccessHealth(Action):
+    def name(self) -> Text:
+        return "action_utter_to_access_health"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_to_access_health', user_lang))
+        dispatcher.utter_message(text=getText('utter_if_you_change', user_lang))
+        dispatcher.utter_message(text=getText('utter_some_gps_only', user_lang), buttons=[{
+            "title": getText('do_i_pay', user_lang),
+            "payload": "/do_i_pay"
+        }])
+        return []
+
+class ActionUtterInIrelandIf(Action):
+    def name(self) -> Text:
+        return "action_utter_in_ireland_if"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_in_ireland_if', user_lang))
+        dispatcher.utter_message(text=getText('utter_if_your_family', user_lang))
+        dispatcher.utter_message(text=getText('utter_children_under_the', user_lang))
+        dispatcher.utter_message(text=getText('utter_if_you_do', user_lang))
+        dispatcher.utter_message(text=getText('utter_if_you_are', user_lang), buttons=[{
+            "title": getText('do_i_have', user_lang),
+            "payload": "/do_i_have"
+        }])
+        return []
+
+class ActionUtterForAcutePublic(Action):
+    def name(self) -> Text:
+        return "action_utter_for_acute_public"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_for_acute_public', user_lang))
+        dispatcher.utter_message(text=getText('utter_if_you_do', user_lang))
+        dispatcher.utter_message(text=getText('utter_hospital_services', user_lang))
+        dispatcher.utter_message(text=getText('utter_you_can_get', user_lang))
+        return []
+
+## Public Health Nurses
+class ActionUtterPublicHealthNurses(Action):
+    def name(self) -> Text:
+        return "action_utter_public_health_nurses"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_public_health_nurses', user_lang))
+        dispatcher.utter_message(text=getText('utter_if_you_have', user_lang))
+        dispatcher.utter_message(text=getText('utter_for_more', user_lang))
+        return []
+
+## Medical Emergencies
+class ActionUtterInAMedical(Action):
+    def name(self) -> Text:
+        return "action_utter_in_a_medical"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_in_a_medical', user_lang))
+        return []
+
+## Medical Emergencies
+class ActionUtterAdditionalInformationOn(Action):
+    def name(self) -> Text:
+        return "action_utter_additional_information_on"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_additional_information_on', user_lang))
         return []

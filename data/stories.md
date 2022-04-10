@@ -151,3 +151,60 @@
   - action_utter_further_education_is
   - action_utter_in_ireland_by
 <!-- Show education menu -->
+
+## Education: Main Menu
+> education_choice_1
+* main_menu
+  - action_utter_main_menu
+<!-- Show main menu -->
+
+<!-- HEALTHCARE STORIES -->
+## Healthcare Menu
+* conversation_healthcare
+  - action_utter_in_ireland_the
+> healthcare_choice_1
+
+## Healthcare: HSE Local Health Offices
+> healthcare_choice_1
+* hse_local
+  - action_utter_your_local_health
+  - action_utter_in_ireland_the
+<!-- Show healthcare menu -->
+
+## Healthcare: GPs
+> healthcare_choice_1
+* register_gp
+  - action_utter_to_access_health
+* do_i_pay
+  - action_utter_in_ireland_if
+* do_i_have
+  - action_utter_for_acute_public
+  - action_utter_in_ireland_the
+<!-- Show healthcare menu -->
+
+## Healthcare: Public Health Nurse
+> healthcare_choice_1
+* public_health
+  - action_utter_public_health_nurses
+  - action_utter_in_ireland_the
+<!-- Show healthcare menu -->
+
+## Healthcare: Medical Emergencies
+> healthcare_choice_1
+* medical_emergency
+  - action_utter_in_a_medical
+  - action_utter_in_ireland_the
+<!-- Show healthcare menu -->
+
+## Healthcare: Other Services
+> healthcare_choice_1
+* other_services
+  - action_utter_additional_information_on
+  - action_utter_in_ireland_the
+<!-- Show healthcare menu -->
+
+## Healthcare: Main Menu
+> healthcare_choice_1
+* main_menu
+  - action_utter_main_menu
+<!-- Show main menu -->

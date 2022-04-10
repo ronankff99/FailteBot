@@ -156,3 +156,50 @@ utter_further_education_is_5, literacy and basic education programmes;
 utter_further_education_is_6, evening classes for adults in second-level schools.
 utter_you_can_get, You can get more information on www.education.ie (click on Further Education and Training) or from your local Education and Training Board.
 utter_further_information_about, Further information about the Irish education system\, including supports available\, can be found on the Department of Education and Skills website\, www.education.ie.
+
+CONVERSATION: HEALTHCARE,
+healthcare, Healthcare
+utter_in_ireland_the, In Ireland\, the public health service is run by the Health Service Executive (HSE). The HSE oversees public hospitals. It also operates a network of local health offices and health centres which provide a range of health and social services.
+
+hse_local, HSE Local Health Offices
+register_gp,
+public_health,
+medical_emergency,
+other_services,
+
+utter_your_local_health, Your local health office is your entry point to community health and personal social services. Local health offices and health centres provide a wide range of services including:
+gp_services, 👨‍⚕️ GP Services
+public_health_nursing, 👨‍⚕️ Public Health Nursing
+child_health, 🧒 Child Health Services
+community_welfare, 👪 Community Welfare
+chiropody, 🦶 Chiropody (care of the feet)
+ophthalmic, 👁 Ophthalmic (care of the eye)
+speech_therapy, 🗣 Speech Therapy
+social_work, 👪 Social Work
+addiction_counselling, 💊 Addiction Counselling and Treatment
+physiotherapy, 🏋 Physiotherapy
+occupational_therapy, ♿ Occupational Therapy
+psychiatric_services, 🧠 Psychiatric services
+
+utter_to_access_health, To access health services\, you will need to register with a family doctor in your area. You will have to give your name\, address\, contact number and date of birth to the doctor. You will find a list of General Practitioners on www.icgp.ie
+utter_if_you_change, If you change your doctor and you already hold a medical card or GP visit card, you must ask your local health office for a new medical card or GP visit card.
+utter_some_gps_only, Some GPs only offer services to private patients\, while others may deal with both private and medical/GP card patients. Your local Health Office can provide you with details of the GPs in your area who accept medical/GP card patients.
+
+utter_in_ireland_if, In Ireland\, if your family income is below a certain level\, you may be entitled to a Medical Card. This card entitles you and your family to free healthcare from a GP (family doctor)\, free medicines\, free care in public hospital emergency departments\, and a range of other free healthcare services.
+utter_if_your_family, If your family income is above this level\, you may be entitled to a GP Visit Card. This card gives you free visits to your family doctor but you must pay for medicines and other healthcare services.
+utter_children_under_the, Children under the age of 6 years and people over the age of 70 years are automatically entitled to a GP Visit Card.
+utter_if_you_do, If you do not qualify for either of these cards\, you must pay for GP visits\, medicines and other primary healthcare services.
+utter_if_you_are, If you are changing doctor\, you should tell your current doctor of your plans to change and ask that your medical history be sent on to your new doctor. If you qualify for a medical card\, you may need to check if the new doctor is accepting new patients.
+
+do_i_have, Do I have to pay to go to the hospital?
+utter_for_acute_public, For acute public hospital services\, including emergency department services\, you do not have to pay\, but you will normally need a letter from your GP (a referral letter) to access public hospital services.
+utter_if_you_do, If you do not have a referral letter from your GP\, or a medical card\, you will be charged €100 for accident and emergency services.
+utter_hospital_services_are, Hospital services are also available from a number of private hospitals. You will have to pay the full cost for private hospital services unless you have private health insurance which covers the cost.
+utter_you_can_get, You can get more information on public health services and how to apply for a medical card or GP visit card from your local health office.
+
+utter_public_health_nurses, Public health nurses provide a range of services free of charge in your community.
+utter_if_you_have, If you have been registered with a public health nurse during your stay in State Accommodation\, it is important to give the public health nurse your new address when you leave. This allows the nurse to follow up with you\, or refer you to the local public health nurse near your new residence.
+utter_for_more_information, For more information on Public health nurses, please visit www.hse.ie
+
+utter_in_a_medical, In a medical emergency, you should phone 112 or 999 and tell the operator about the emergency
+utter_additional_information_on, Additional information on other healthcare services and service providers can be found on www.hse.ie\, or by contacting your local health office
