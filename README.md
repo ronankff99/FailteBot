@@ -22,4 +22,3 @@ This is a Final Year Project for the Software Development Lvl 8 program at Munst
 8. Start chatting!
 9. If you would prefer to just chat via cmdline and go as far as step 5 and then run
 > rasa shell
-in a separate console window
