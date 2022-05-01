@@ -13,7 +13,7 @@ utter_deny, No, thanks
 utter_okay, Okay!
 
 DEFAULT FALLBACK,
-default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: LINK FOR ERROR REPORTING
+default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: [LINK REMOVED FOR GITHUB]
 
 CONVERSATION: WHERE TO GET HELP
 utter_your_local_citizens_1, Your local Citizens Information Centre can tell you about public services in Ireland and about residence rights\, employment rights\, health services\, housing\, social welfare entitilements, and general information about living in Ireland.
@@ -100,7 +100,7 @@ utter_housing_checklist_12, Broaden your search to find accommodation at a price
 
 CONVERSATION: EDUCATION,
 education, Education
-utter_in_ireland_by, In Ireland\, by law, children must be educated from the ages of 6 to 16 (or until they have completed three years of second-level education). Children\, who are new to Ireland\, whether asylum seekers\, refugees or children of migrant workers\, have the same right to education as other children in Ireland. The Irish education system is made up of primary\, second-level\, third-level\, and further education.
+utter_in_ireland_by, In Ireland\, by law\, children must be educated from the ages of 6 to 16 (or until they have completed three years of second-level education). Children\, who are new to Ireland\, whether asylum seekers\, refugees or children of migrant workers\, have the same right to education as other children in Ireland. The Irish education system is made up of primary\, second-level\, third-level\, and further education.
 
 early_childhood, Tell me about early childhood education
 primary_education, Tell me about primary education
@@ -121,7 +121,7 @@ utter_education_in_state, Education in State primary schools is free. However\, 
 utter_primary_schools_are, Primary schools are overseen by Boards of Management.
 
 utter_children_begin_their, Children begin their second-level education around the age of 12 and leave around the age of 17 or 18.
-utter_the_second_level, The second-level school cycle is five years with two State examinations during that time\, the Junior Certificate after three years and the Leaving Certificate after five years. Some schools also offer a ‘transition year’ after the Junior Certificate, making the school cycle six years in total.
+utter_the_second_level, The second-level school cycle is five years with two State examinations during that time\, the Junior Certificate after three years and the Leaving Certificate after five years. Some schools also offer a ‘transition year’ after the Junior Certificate\, making the school cycle six years in total.
 utter_the_earliest_a, The earliest a child can leave school is 16 years (or after they have completed three years of second-level education\, whichever is later).
 is_there_english, Is there English language support for students?
 
@@ -162,10 +162,10 @@ healthcare, Healthcare
 utter_in_ireland_the, In Ireland\, the public health service is run by the Health Service Executive (HSE). The HSE oversees public hospitals. It also operates a network of local health offices and health centres which provide a range of health and social services.
 
 hse_local, HSE Local Health Offices
-register_gp,
-public_health,
-medical_emergency,
-other_services,
+register_gp, Registering with a family doctor (GP)
+public_health, Public Health Nurse
+medical_emergency, Medical emergencies
+other_services, Other healthcare services
 
 utter_your_local_health, Your local health office is your entry point to community health and personal social services. Local health offices and health centres provide a wide range of services including:
 gp_services, 👨‍⚕️ GP Services
@@ -199,7 +199,11 @@ utter_you_can_get, You can get more information on public health services and ho
 
 utter_public_health_nurses, Public health nurses provide a range of services free of charge in your community.
 utter_if_you_have, If you have been registered with a public health nurse during your stay in State Accommodation\, it is important to give the public health nurse your new address when you leave. This allows the nurse to follow up with you\, or refer you to the local public health nurse near your new residence.
-utter_for_more_information, For more information on Public health nurses, please visit www.hse.ie
+utter_for_more_information, For more information on Public health nurses\, please visit www.hse.ie
 
-utter_in_a_medical, In a medical emergency, you should phone 112 or 999 and tell the operator about the emergency
+utter_in_a_medical, In a medical emergency\, you should phone 112 or 999 and tell the operator about the emergency
 utter_additional_information_on, Additional information on other healthcare services and service providers can be found on www.hse.ie\, or by contacting your local health office
+
+CONVERSATION: BUG REPORT,
+bug, Report a bug
+utter_to_report_a, To report a bug\, please use this anonymous form: [LINK REMOVED FOR GITHUB]. Thank you for your assistance!

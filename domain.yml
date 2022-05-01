@@ -8,6 +8,8 @@ intents:
   - main_menu
   - conversation_where_to_get
   - conversation_accommodation
+  - conversation_education
+  - conversation_bug
   - social_housing
   - do_i_have
   - what_points_do
@@ -19,11 +21,28 @@ intents:
   - housing_assistance_payment
   - rent_supplement
   - housing_checklist
+  - early_childhood
+  - primary_education
+  - second_level
+  - english_language
+  - special_education
+  - third_level
+  - financial_support
+  - help_for
+  - are_my
+  - further_education
+  - conversation_healthcare
+  - hse_local
+  - register_gp
+  - do_i_pay
+  - public_health
+  - medical_emergency
+  - other_services
 
 entities:
   - user_lang
   
-# Require at least one response to correctly run, even if unused
+# Require at least one response to correctly compile, even if unused
 responses:
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
@@ -46,6 +65,27 @@ actions:
   - action_utter_hap_is_a
   - action_utter_if_you_live
   - action_utter_housing_checklist
+  - action_utter_in_ireland_by
+  - action_utter_early_childhood_education
+  - action_utter_children_attend_primary
+  - action_utter_children_begin_their
+  - action_utter_young_children_learn
+  - action_utter_children_with_special
+  - action_utter_third_level_education
+  - action_utter_financial_help_for
+  - action_utter_yes_there_is
+  - action_utter_it_depends_quality
+  - action_utter_further_education_is
+  - action_utter_in_ireland_the
+  - action_utter_your_local_health
+  - action_utter_to_access_health
+  - action_utter_in_ireland_if
+  - action_utter_for_acute_public
+  - action_utter_public_health_nurses
+  - action_utter_in_a_medical
+  - action_utter_additional_information_on
+  - action_utter_to_report_a
+
 
 slots:
   user_lang:

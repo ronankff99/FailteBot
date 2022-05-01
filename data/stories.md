@@ -1,5 +1,5 @@
 <!-- ONBOARDING STORIES -->
-## Onboarding
+## Onboarding and language select, or just language select
 * choose_lang
   - action_language_select
 * lang_choice{"user_lang":"{user_lang}"}
@@ -127,8 +127,8 @@
   - action_utter_children_begin_their
 * english_language
   - action_utter_young_children_learn
-* special_educational
-  - action_utter_children_with_special_educational
+* special_education
+  - action_utter_children_with_special
   - action_utter_in_ireland_by
 <!-- Show education menu -->
 
@@ -205,6 +205,14 @@
 
 ## Healthcare: Main Menu
 > healthcare_choice_1
+* main_menu
+  - action_utter_main_menu
+<!-- Show main menu -->
+
+<!-- BUG REPORT STORIES -->
+## Bug Report Link
+* conversation_bug
+  - action_utter_to_report_a
 * main_menu
   - action_utter_main_menu
 <!-- Show main menu -->

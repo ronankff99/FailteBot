@@ -30,12 +30,12 @@ def getText(key, lang):
                     check = True
                     break
             except IndexError as e:
-                # print(e)
+                print(e)
                 continue
 
         if not check:
             # If there is no entry in csv file
-            res = f"Data retrieval error, could not find {key} please contact a developer"
+            res = f"Data retrieval error, could not find key:{key}. Please contact a developer at fakesupport@failtebot.com"
 
     return res
 
@@ -90,6 +90,12 @@ class ActionUtterMainMenu(Action):
             },{
                 "title": getText('education', user_lang),
                 "payload": '/conversation_education'                
+            },{
+                "title": getText('healthcare', user_lang),
+                "payload": '/conversation_healthcare'                   
+            }, {
+                "title": getText('bug', user_lang),
+                "payload": '/conversation_bug'
             }])
         return []
 
@@ -402,7 +408,7 @@ class ActionUtterYoungChildrenLearn(Action):
         user_lang = tracker.get_slot("user_lang")
         dispatcher.utter_message(text=getText('utter_young_children_learn', user_lang), buttons=[{
             "title": getText('are_there_special', user_lang),
-            "payload": "/special_educational"
+            "payload": "/special_education"
         }])
         return []  
 
@@ -610,4 +616,31 @@ class ActionUtterAdditionalInformationOn(Action):
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         user_lang = tracker.get_slot("user_lang")
         dispatcher.utter_message(text=getText('utter_additional_information_on', user_lang))
+        return []
+
+## Medical Emergencies
+class ActionUtterToReportA(Action):
+    def name(self) -> Text:
+        return "action_utter_to_report_a"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_to_report_a', user_lang), buttons=[{
+            "title": getText('main_menu', user_lang),
+            "payload": "/main_menu"
+        }])
+        return []
+
+## CHATBOT INFO ACTIONS
+class ActionUtterAChatbotOr(Action):
+    def name(self) -> Text:
+        return "action_utter_a_chatbot_or"
+
+    def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_lang = tracker.get_slot("user_lang")
+        dispatcher.utter_message(text=getText('utter_a_chatbot_or', user_lang))
+        dispatcher.utter_message(text=getText('utter_design_to_convincingly', user_lang), buttons=[{
+            "title": getText('utter_interesting', user_lang),
+            "payload": "/interesting"
+        }])
         return []

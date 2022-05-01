@@ -2,15 +2,15 @@
 - hey
 - hello
 - hi
-- good morning
-- good evening
 - hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
+- salut
+- hey
+- bonjour
+- bonsoir
+- مرحبا
+- أهلا
+- صباح الخير
+- مساء الخير
 
 ## intent:affirm
 - yes
@@ -18,45 +18,34 @@
 - of course
 - that sounds good
 - correct
+- oui
+- En effet
+- c'est exact
+- ça a l'air bien
+- نعم
+- في الواقع
+- صيح
+- بالتاكيد
 
 ## intent:deny
 - no
 - never
-- I don't think so
-- don't like that
 - no way
 - not really
-
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
-
-## intent:mood_unhappy
-- sad
-- very sad
-- unhappy
-- bad
-- very bad
-- awful
-- terrible
-- not very good
-- extremely sad
-- so sad
-
-## intent:bot_challenge
-- are you a bot?
-- are you a human?
-- am I talking to a bot?
-- am I talking to a human?
+- non
+- jamais
+- pas du tout
+- pas vraiment
 
 ## intent:choose_lang
 - choose language
 - change language
 - lang
 - language
+- Choisissez la langue
+- changer de langue
+- Langue
+- اختر اللغة
+- تغيير اللغة
+- لانج
+- لغة

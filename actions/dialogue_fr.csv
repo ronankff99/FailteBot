@@ -12,7 +12,7 @@ utter_deny, Non merci
 utter_okay, D'accord!
 
 DEFAULT FALLBACK
-default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: LINK FOR ERROR REPORTING
+default_fallback, Sorry\, this input is out of the scope of this chatbot. For questions on living in Ireland\, please see the "Where to get help" conversation. If you have encountered a technical issue please submit a bug report here: [LINK REMOVED FOR GITHUB]
 
 
 CONVERSATION: WHERE TO GET HELP
@@ -23,6 +23,7 @@ utter_your_local_citizens_4, ou en personne en appelant le Centre d’informatio
 utter_your_local_citizens_5, Souhaitez-vous voir votre centre le plus proche?
 
 CONVERSATION: ACCOMMODATION,
+accommodation, Logement
 utter_the_first_challenge, Votre premier défi est de trouver un nouvel hébergement. Cela peut être dans un logement public (social) ou dans un logement privé et loué.
 social_housing, Parlez-moi du logement public
 private_housing, Parlez-moi du logement privé
@@ -96,11 +97,11 @@ utter_housing_checklist_12, Élargissez vos recherches pour trouver un logement 
 CONVERSATION: EDUCATION,
 education, Education
 utter_in_ireland_by, En Irlande, selon la loi\, la scolarisation des enfants est obligatoire entre 6 et 16 ans (ou jusqu’à ce qu’ils terminent trois ans d’enseignement secondaire). Les enfants qui arrivent en Irlande\, qu’ils soient demandeurs d’asile\, réfugiés ou fils ou filles de travailleurs migrants\, disposent des mêmes droits à l’éducation que n’importe quel autre enfant en Irlande. Le système scolaire irlandais se compose de la primaire\, du secondaire\, de l’enseignement supérieur et de la formation continue.
-early_childhood, Tell me about early childhood education
-primary_education, Tell me about primary education
-second_level, Tell me about second-level education
-third_level, Tell me about third-level education
-further_education, Tell me about further education
+early_childhood, Parlez-moi de l'éducation de la petite enfance
+primary_education, Parlez-moi de l'enseignement primaire
+second_level, Parlez-moi de l'enseignement secondaire
+third_level, Parlez-moi de l'enseignement supérieur
+further_education, Parlez-moi de la formation continue
 
 utter_early_childhood_education, L’éducation préscolaire ne fait pas partie du système éducatif formel irlandais. Elle est gérée par un vaste ensemble de groupes privés\, de communautés et de bénévoles. Elle comprend les crèches\, les garderies\, les maternelles et les maternelles d’apprentissage de l’irlandais.
 utter_the_ecce_programme, Le programme ECCE (Année d’éducation préscolaire gratuite pour la garde et l’éducation dans la petite enfance) est conçu pour donner aux enfants (généralement de moins de 4 ans) accès à une année d’éducation préscolaire gratuite constituée d’activités appropriées et respectueuses du programme durant l’année précédant leur entrée en primaire. Plus d’informations sur www.dcya.gov.ie.
@@ -158,10 +159,10 @@ healthcare, Services de santé
 utter_in_ireland_the, En Irlande\, les soins médicaux sont gérés par le service de santé publique\, ou Health Service Executive (HSE). Le HSE supervise les hôpitaux publics. Il gère également un réseau de bureaux locaux de santé et de centres de soins qui proposent un ensemble de services de santé et de prestations sociales.
 
 hse_local, Bureaux locaux de santé du HSE
-register_gp,
-public_health,
-medical_emergency,
-other_services,
+register_gp, Inscription auprès d'un médecin de famille (MG)
+public_health, infirmière de la santé publique
+medical_emergency, Urgences médicales
+other_services, Autres services de santé
 
 utter_your_local_health, Votre bureau local de santé est votre point de départ dans la santé communautaire et pour les prestations sociales personnelles. Les bureaux locaux de santé et les centres de soins proposent un ensemble de services tels que :
 gp_services, 👨‍⚕️ les services de médecins généralistes
@@ -199,3 +200,7 @@ utter_for_more_information, Veuillez consulter le site www.hse.ie pour plus d’
 
 utter_in_a_medical, En cas d’urgence médicale\, composez le 112 ou le 999 et décrivez l’urgence à l’opérateur.
 utter_additional_information_on, Vous pouvez obtenir des informations supplémentaires sur les autres services de santé et prestataires de services sur www.hse.ie\, ou en contactant votre bureau local de santé
+
+CONVERSATION: BUG REPORT,
+bug, Signaler un bug
+utter_to_report_a, Pour signaler un bug\, merci d'utiliser ce formulaire anonyme : [LINK REMOVED FOR GITHUB]. Merci pour votre aide!
