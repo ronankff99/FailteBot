@@ -21,6 +21,7 @@ utter_your_local_citizens_2, par téléphone -  0761 074000
 utter_your_local_citizens_3, en ligne sur www.citizensinformation.ie
 utter_your_local_citizens_4, ou en personne en appelant le Centre d’information des citoyens (CIC)
 utter_your_local_citizens_5, Souhaitez-vous voir votre centre le plus proche?
+utter_show_local_centre, https://www.google.com/maps/search/citizens+information+centre+near+me
 
 CONVERSATION: ACCOMMODATION,
 accommodation, Logement
@@ -96,7 +97,7 @@ utter_housing_checklist_12, Élargissez vos recherches pour trouver un logement 
 
 CONVERSATION: EDUCATION,
 education, Education
-utter_in_ireland_by, En Irlande, selon la loi\, la scolarisation des enfants est obligatoire entre 6 et 16 ans (ou jusqu’à ce qu’ils terminent trois ans d’enseignement secondaire). Les enfants qui arrivent en Irlande\, qu’ils soient demandeurs d’asile\, réfugiés ou fils ou filles de travailleurs migrants\, disposent des mêmes droits à l’éducation que n’importe quel autre enfant en Irlande. Le système scolaire irlandais se compose de la primaire\, du secondaire\, de l’enseignement supérieur et de la formation continue.
+utter_in_ireland_by, En Irlande\, selon la loi\, la scolarisation des enfants est obligatoire entre 6 et 16 ans (ou jusqu’à ce qu’ils terminent trois ans d’enseignement secondaire). Les enfants qui arrivent en Irlande\, qu’ils soient demandeurs d’asile\, réfugiés ou fils ou filles de travailleurs migrants\, disposent des mêmes droits à l’éducation que n’importe quel autre enfant en Irlande. Le système scolaire irlandais se compose de la primaire\, du secondaire\, de l’enseignement supérieur et de la formation continue.
 early_childhood, Parlez-moi de l'éducation de la petite enfance
 primary_education, Parlez-moi de l'enseignement primaire
 second_level, Parlez-moi de l'enseignement secondaire
@@ -119,10 +120,10 @@ utter_children_begin_their, Les enfants entrent dans le secondaire vers 12 ans e
 utter_the_second_level, Le cycle d’enseignement secondaire dure cinq ans ponctués de deux examens nationaux\, le Junior Certificate au bout de trois ans et le Leaving Certificate après cinq ans. Certaines écoles proposent également une « année de transition » après le Junior Certificate\, portant la durée totale de l’enseignement secondaire à six ans.
 utter_the_earliest_a, Un enfant ne peut pas quitter l’école avant ses 16 ans (ou avant d’avoir terminé trois ans d’études secondaires, ce qui revient à la quitter plus tard).
 
-is_there_english, Is there English language support for students?
+is_there_english, Existe-t-il un soutien en anglais pour les étudiants?
 utter_young_children_learn, Les jeunes enfants apprennent l’anglais très rapidement. Même si votre enfant ne parle que très peu anglais\, il sera normalement placé dans une classe composée d’enfants de son âge. En primaire\, de même qu’au secondaire\, un soutien supplémentaire est disponible pour les enfants qui n’ont pas l’anglais comme langue maternelle.
 
-are_there_special, Is there special needs support for students?
+are_there_special, Y a-t-il un soutien spécial pour les étudiants?
 utter_children_with_special, Les enfants aux besoins éducatifs particuliers résultant d’un handicap disposent de davantage de soutien soit au sein de leur établissement\, soit dans des écoles spécialisées. Plus d’informations sur www.ncse.ie
 
 utter_third_level_education, Les études supérieures comprennent des cursus gérés par des universités\, des instituts de technologie\, des instituts de formation\, et des établissements d’enseignement supérieur privés
@@ -191,7 +192,7 @@ utter_if_you_are, Si vous changez de médecin\, vous devez en informer votre mé
 do_i_have, Dois-je payer pour aller à l’hôpital ?
 utter_for_acute_public, Vous n’avez pas à payer pour les services hospitaliers de soins aigus\, y compris le service des urgences\, mais il vous faudra normalement une lettre de votre médecin généraliste (une ordonnance) pour pouvoir accéder aux services d’un hôpital public.
 utter_if_you_do, Si vous n’avez pas d’ordonnance de votre médecin\, ni de Medical Card\, vous devrez vous acquitter de 100€ pour des services d’urgence ou d’accident.
-utter_hospital_services_are, Des services hospitaliers sont également disponibles dans un certain nombre d’hôpitaux privés. Vous devrez payer l’ensemble des frais pour des services en hôpital privé à moins que vous n’ayez une assurance maladie privée qui couvre ces frais.
+utter_hospital_services, Des services hospitaliers sont également disponibles dans un certain nombre d’hôpitaux privés. Vous devrez payer l’ensemble des frais pour des services en hôpital privé à moins que vous n’ayez une assurance maladie privée qui couvre ces frais.
 utter_you_can_get, Votre bureau local de santé peut vous apporter plus d’informations sur les services de soins et sur la façon d’obtenir une Medical Card ou une GP visit card. 
 
 utter_public_health_nurses, Les infirmières de santé publique proposent un ensemble de services gratuits au sein de votre communauté.

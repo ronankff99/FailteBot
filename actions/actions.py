@@ -499,7 +499,7 @@ class ActionUtterInIrelandThe(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         user_lang = tracker.get_slot("user_lang")
-        dispatcher.utter_message(text=getText('utter_in_ireland_by', user_lang), buttons=[{
+        dispatcher.utter_message(text=getText('utter_in_ireland_the', user_lang), buttons=[{
             "title": getText('hse_local', user_lang),
             "payload": "/hse_local"
         },{
@@ -527,7 +527,7 @@ class ActionUtterYourLocalHealth(Action):
 
     def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
         user_lang = tracker.get_slot("user_lang")
-        dispatcher.utter_message(text=getText('action_utter_your_local_health', user_lang))
+        dispatcher.utter_message(text=getText('utter_your_local_health', user_lang))
         list_string =   getText('gp_services', user_lang) + '\n' + \
                         getText('public_health_nursing', user_lang) + '\n' + \
                         getText('child_health', user_lang) + '\n' + \
@@ -595,7 +595,7 @@ class ActionUtterPublicHealthNurses(Action):
         user_lang = tracker.get_slot("user_lang")
         dispatcher.utter_message(text=getText('utter_public_health_nurses', user_lang))
         dispatcher.utter_message(text=getText('utter_if_you_have', user_lang))
-        dispatcher.utter_message(text=getText('utter_for_more', user_lang))
+        dispatcher.utter_message(text=getText('utter_for_more_information', user_lang))
         return []
 
 ## Medical Emergencies

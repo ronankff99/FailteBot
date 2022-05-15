@@ -194,7 +194,7 @@ utter_if_you_are, If you are changing doctor\, you should tell your current doct
 do_i_have, Do I have to pay to go to the hospital?
 utter_for_acute_public, For acute public hospital services\, including emergency department services\, you do not have to pay\, but you will normally need a letter from your GP (a referral letter) to access public hospital services.
 utter_if_you_do, If you do not have a referral letter from your GP\, or a medical card\, you will be charged €100 for accident and emergency services.
-utter_hospital_services_are, Hospital services are also available from a number of private hospitals. You will have to pay the full cost for private hospital services unless you have private health insurance which covers the cost.
+utter_hospital_services, Hospital services are also available from a number of private hospitals. You will have to pay the full cost for private hospital services unless you have private health insurance which covers the cost.
 utter_you_can_get, You can get more information on public health services and how to apply for a medical card or GP visit card from your local health office.
 
 utter_public_health_nurses, Public health nurses provide a range of services free of charge in your community.
